@@ -1,19 +1,8 @@
 extends _layout/_layout.pug
 
 block var
-	- var title = 'Home'
-	- var bodyClass = 'home-page'
+	- var title = 'Hệ Thống Phân Phối'
+	- var bodyClass = 'distribution-system-page'
 
 block main
-	.map-wrapper
-		.container
-			.row
-				.col-lg-4
-					.map-filter
-						input#searchmap(type="text")
-					#map-list
-						p test
-				.col-lg-8
-					#map(style="min-height: 600px")
-
-	//- #video
+	include ../components/distribution-system/distribution-system.pug
