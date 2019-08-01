@@ -37,8 +37,8 @@
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	margin-right: -15px;
-	margin-left: -15px;
+	margin-right: -7.5px;
+	margin-left: -7.5px;
 }
 
 .no-gutters {
@@ -124,8 +124,8 @@
 .col-xl-auto {
 	position: relative;
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 7.5px;
+	padding-left: 7.5px;
 }
 
 .col {

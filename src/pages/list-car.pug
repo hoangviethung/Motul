@@ -1,0 +1,33 @@
+extends _layout/_layout_2.pug
+
+block var
+	- var title = 'Danh Sách Sản Phẩm'
+	- var bodyClass = 'list-product-page'
+block main
+	section.list-car
+		.container
+			.row
+				//- MENU BÊN TRÁI
+				.col-lg-3
+					include ../components/nav-left/nav-left.pug
+				//- DANH SÁCH XE HƠI
+				.col-lg-9
+					.block.item-detail
+						ul.list-car
+							li.item
+								a(href="#") Toyota
+							li.item
+								a(href="#") Nissan
+							li.item
+								a(href="#") Subaru
+							li.item
+								a(href="#") Honda
+							li.item
+								a(href="#") Mazdaz
+							li.item
+								a(href="#") Misubishi
+							li.item
+								a(href="#") Isuzu
+					.note
+						p * Hiện thông tin các dòng xe hơi khác và sản phẩm Motul thích hợp tương ứng cho từng dòng xe đang được cập nhật.
+						p * Mọi thông tin về sản phẩm vui lòng liên hệ đến đại lý phân phối Motul chính hãng gần nhất hoặc văn phòng Motul Việt Nam qua số (+84)28 3513 6015 - 3513026.

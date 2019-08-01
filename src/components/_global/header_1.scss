@@ -1,4 +1,4 @@
-header {
+.header_1 {
 	position  : fixed;
 	top       : 0;
 	width     : 100%;
@@ -67,9 +67,13 @@ header {
 
 	// LIST MENU PC
 	.list-menu {
+		display   : flex;
 		height    : 100%;
-		display   : block;
 		list-style: none;
+		padding   : 0;
+		max-width : 100%;
+		flex-basis: 0;
+		flex-grow : 1;
 
 		.item-menu {
 			padding   : 0 5px;
@@ -101,7 +105,7 @@ header {
 }
 
 @media(max-width: 1024px) {
-	header {
+	.header_1 {
 		.container {
 			padding: 0;
 		}
