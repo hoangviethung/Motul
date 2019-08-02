@@ -1,0 +1,39 @@
+extends _layout/_layout_2.pug
+
+block var
+	- var title = 'Các Loại Dầu'
+	- var bodyClass = 'catalog-oil-page'
+block main
+	section.catalog-oil
+		.container
+			.row
+				//- MENU BÊN TRÁI
+				.col-lg-3
+					include ../components/nav-left/nav-left.pug
+				//- CÁC LOẠI DẦU
+				.col-lg-9
+					.block.text-center
+						.brand
+							p Thương hiệu
+							h3 TOYOTA
+						.quantity
+							p Mẫu xe
+							h3
+					.block.item-detail.mt-18
+						ul.list-car
+							li.item
+								a(href="car-version.html") 86
+							li.item
+								a(href="car-version.html") bB
+							li.item
+								a(href="car-version.html") C-HR
+							li.item
+								a(href="car-version.html") C-HR hybrid
+							li.item
+								a(href="car-version.html") FJ CRUISER
+							li.item
+								a(href="car-version.html") iQ
+							li.item
+								a(href="car-version.html") MR-2
+							li.item
+								a(href="car-version.html") MR-2 G

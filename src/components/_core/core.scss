@@ -32,7 +32,9 @@ body {
 
 .block {
 	border: 5px solid #ED1D24;
-
+	.row{
+		position: relative;
+	}
 	&.menu {
 		display        : flex;
 		justify-content: center;
@@ -109,11 +111,14 @@ body {
 		background         : #fff;
 		background-image   : url(../img/background_item_detail.png);
 		background-position: center;
-		padding            : 43px;
 	}
 
 	&.display-none {
 		display: none;
+	}
+
+	&.size-9 {
+		border: 9px solid #ED1D24;
 	}
 
 	@media(max-width: 1024px) {

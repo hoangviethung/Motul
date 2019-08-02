@@ -30,29 +30,11 @@ section.distribution-system
 							span.checkmark
 				.show-filter
 					ul.list-address
-						li.item
-							p.name VINMART KHÁNH HỘI
-							p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
-							p.phone 18006968
-						li.item
-							p.name VINMART KHÁNH HỘI
-							p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
-							p.phone 18006968
-						li.item
-							p.name VINMART KHÁNH HỘI
-							p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
-							p.phone 18006968
-						li.item
-							p.name VINMART KHÁNH HỘI
-							p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
-							p.phone 18006968
-						li.item
-							p.name VINMART KHÁNH HỘI
-							p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
-							p.phone 18006968
-						li.item
-							p.name VINMART KHÁNH HỘI
-							p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
-							p.phone 18006968
+						-for(i=0; i<10; i++)
+							li.item(onClick="myClick("+i+");")
+								a(href="javascript:void(0);")
+								p.name VINMART KHÁNH HỘI
+								p.address Khu thể thao, công viên Khánh Hội, đường 48, phường 3
+								p.phone 18006968
 			.col-lg-7
 				#map

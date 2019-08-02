@@ -1,0 +1,403 @@
+.list-oil {
+	.list-item {
+		padding     : 0 20px !important;
+		margin-left : 0;
+		margin-right: 0;
+
+		.item {
+			margin-top: 50px;
+
+			figure {
+				figcaption {
+					margin-bottom: 10px;
+
+					h5 {
+						position  : relative;
+						text-align: center;
+						font-size : 14px;
+						color     : #353535;
+
+						&:before {
+							content          : '';
+							position         : absolute;
+							background-image : url(../img/icons/next-arrows.png);
+							background-repeat: no-repeat;
+							background-size  : cover;
+							top              : 50%;
+							left             : 13px;
+							width            : 26px;
+							height           : 26px;
+							transform        : translateY(-50%);
+						}
+					}
+				}
+
+				.box-img {
+					img {
+						display: block;
+						margin : 0 auto;
+					}
+				}
+			}
+		}
+	}
+}
+
+.list-car {
+	list-style: none;
+	padding   : 0;
+	padding   : 43px;
+
+	.item {
+		padding    : 0 0 28px 0;
+		user-select: none;
+
+		&:last-child {
+			padding: 0;
+		}
+
+		a {
+			position    : relative;
+			font-size   : 18px;
+			color       : #000000;
+			padding-left: 40px;
+
+			&::before {
+				content          : '';
+				position         : absolute;
+				background-image : url(../img/icons/next-arrows.png);
+				background-repeat: no-repeat;
+				background-size  : cover;
+				top              : 50%;
+				left             : 0;
+				width            : 26px;
+				height           : 26px;
+				transform        : translateY(-50%);
+			}
+		}
+	}
+
+	.note {
+		margin-top: 30px;
+		width     : 90%;
+
+		p {
+			text-align: justify;
+			font-size : 18px;
+			color     : #707070;
+		}
+	}
+}
+
+.name-catalogs {
+	padding      : 20px 0 20px 80px;
+	font-size    : 18px;
+	color        : #ED1D24;
+	border-bottom: 5px solid #ED1D24;
+}
+
+.detail-oil {
+
+	.info-product {
+		padding: 40px 0 50px 80px;
+
+		ul {
+			list-style          : none;
+			padding-inline-start: 0;
+
+			li {
+				width    : 100%;
+				display  : flex;
+				flex-wrap: wrap;
+
+				h5 {
+					flex     : 0 0 20%;
+					max-width: 20%;
+					color    : #ED1D24;
+				}
+
+				p {
+					flex     : 0 0 80%;
+					max-width: 80%;
+					color    : #353535;
+				}
+
+				p,
+				h5 {
+					font-size  : 14px;
+					font-weight: 700;
+					display    : inline-block;
+				}
+			}
+		}
+	}
+
+	.list-item {
+		padding-left  : 80px;
+		padding-bottom: 105px;
+		margin-left   : -65px;
+		margin-right  : -65px;
+
+		.item {
+			padding: 0 65px;
+
+			figure {
+				figcaption {
+					padding-bottom: 25px;
+
+					h5,
+					p {
+						font-size  : 14px;
+						font-weight: 700;
+					}
+
+					h5 {
+						color: #ED1D24;
+					}
+
+					p {
+						color: #353535;
+					}
+				}
+			}
+		}
+	}
+}
+
+.brand,
+.quantity {
+	display        : flex;
+	align-items    : center;
+	justify-content: center;
+	flex           : 0 0 50%;
+	max-width      : 50%;
+	height         : 160px;
+
+	p {
+		text-align : center;
+		color      : #ED1D24;
+		font-size  : 18px;
+		font-weight: 700;
+
+		flex-basis  : 0;
+		flex-grow   : 1;
+		padding-left: 30px;
+	}
+
+	h3 {
+		font-size  : 30px;
+		color      : #000000;
+		font-weight: 700;
+
+
+		flex-basis   : 0;
+		flex-grow    : 1;
+		word-break   : break-all;
+		padding-right: 20px;
+	}
+}
+
+.brand {
+	border-right: 5px solid #ED1D24;
+}
+
+.car-version {
+	.table-car_version {
+
+		table {
+			width: 100%;
+
+			tr {
+				&:first-child {
+					border-bottom: 5px solid #ED1D24;
+				}
+
+				th {
+					text-align : center;
+					padding    : 20px 25px 20px 0;
+					color      : #ED1D24;
+					font-size  : 18px;
+					font-weight: 700;
+
+					&:last-child {
+						padding: 0;
+					}
+				}
+
+				td {
+					position  : relative;
+					padding   : 10px 0;
+					text-align: center;
+					font-size : 18px;
+
+					a {
+						color: #353535;
+					}
+
+					&:first-child {
+						&::before {
+							content          : '';
+							position         : absolute;
+							background-image : url(../img/icons/next-arrows.png);
+							background-repeat: no-repeat;
+							background-size  : cover;
+							top              : 50%;
+							left             : 40px;
+							width            : 18px;
+							height           : 18px;
+							transform        : translateY(-50%);
+						}
+					}
+				}
+			}
+
+		}
+	}
+
+}
+
+.detail-oil {
+
+	.brand-detail,
+	.info-car-detail {
+		display        : flex;
+		align-items    : center;
+		justify-content: center;
+		flex           : 0 0 50%;
+		max-width      : 50%;
+		height         : 160px;
+
+	}
+
+	.brand-detail {
+		border-right: 5px solid #ED1D24;
+
+		p {
+			flex     : 0 0 50%;
+			max-width: 50%;
+
+
+			text-align  : center;
+			flex-basis  : 0;
+			flex-grow   : 1;
+			padding-left: 30px;
+			font-size   : 18px;
+			color       : #ED1D24;
+			font-weight : 700;
+		}
+
+		ul {
+			padding      : 0;
+			padding-right: 30px;
+			flex         : 0 0 50%;
+			max-width    : 50%;
+			width        : 100%;
+			list-style   : none;
+			flex-basis   : 0;
+			flex-grow    : 1;
+			word-break   : break-all;
+
+			li {
+				font-size  : 30px;
+				color      : #000000;
+				font-weight: 700;
+				background : transparent;
+
+				&:first-child {
+					max-height: 100px;
+					overflow  : hidden;
+				}
+			}
+		}
+	}
+
+	.info-car-detail {
+
+		.list-1,
+		.list-2 {
+			list-style          : none;
+			padding-inline-start: 75px;
+			flex                : 0 0 50%;
+			max-width           : 50%;
+
+			.item {
+				font-size  : 16px;
+				font-weight: 700;
+			}
+		}
+
+		.list-1 {
+			.item {
+				color: #ED1D24;
+			}
+		}
+
+		.list-2 {
+			.item {
+				color: #000;
+			}
+		}
+	}
+}
+
+
+@media(max-width: 1024px) {
+	.name-catalogs {
+		padding      : 5px 0;
+		text-align   : center;
+		font-size    : 16px;
+		border-bottom: 3px solid #ED1D24;
+	}
+
+	.list-car {
+		.item {
+			margin-bottom: 0;
+			padding      : 15px 0 15px 10px;
+
+			a {
+				font-size   : 14px;
+				padding-left: 25px;
+
+				&::before {
+					width : 15px;
+					height: 15px;
+				}
+			}
+
+			&:last-child {
+				padding: 15px 0 15px 10px;
+			}
+
+			&:nth-child(2n) {
+				background: #F2F2F2;
+			}
+		}
+
+		.note {
+			margin-top: 22px;
+			width     : 100%;
+
+			p {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.list-products-oil {
+		.list-item {
+			.item {
+				figure {
+					figcaption {
+						h5 {
+							font-size: 12px;
+
+							&:before {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

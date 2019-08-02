@@ -1,8 +1,30 @@
-extends _layout/_layout_1.pug
+extends _layout/_layout_2.pug
 
 block var
-	- var title = 'Hệ Thống Phân Phối'
-	- var bodyClass = 'distribution-system-page'
+	- var title = 'Motul Oil'
+	- var bodyClass = 'Motul Oil'
 
 block main
-	include ../components/distribution-system/distribution-system.pug
+	section.motul-oil
+		.container
+			.block.size-9
+				.row
+					.col-lg-7.box-content
+						p Mỗi dòng xe đều cần dầu nhớt chuyên dụng để phát huy tối đa công suất vận hành của động cơ.
+						p * Chọn thông tin của xe để tìm kiếm sản phẩm dầu nhớt MOTUL thích hợp nhất cho xe của bạn.
+						.box-title
+							a(href="list-car.html")
+								span Chọn dầu nhớt
+								h1 DẦU NHỚT
+									br
+									|XE HƠI
+								h5 Danh sách sản phẩm
+					.col-lg-5
+						.swiper-container.swiper-BannerCar
+							.swiper-wrapper
+								.swiper-slide
+									figure
+										img(src="./img/2.png", alt="", srcset="")
+								.swiper-slide
+									figure
+										img(src="./img/3.png", alt="", srcset="")

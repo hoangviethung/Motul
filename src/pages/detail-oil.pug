@@ -1,0 +1,85 @@
+extends _layout/_layout_2.pug
+
+block var
+	- var title = 'Chi Tiết Dầu Nhớt'
+	- var bodyClass = 'detail-oil-page'
+block main
+	section.detail-oil
+		.container
+			.row
+				//- MENU BÊN TRÁI
+				.col-lg-3
+					include ../components/nav-left/nav-left.pug
+				//- DANH SÁCH XE HƠI
+				.col-lg-9
+					.block.text-center
+						.brand-detail
+							p Mẫu xe
+							ul
+								li TOYOTA
+								li 86
+						.info-car-detail
+							ul.list-1
+								li.item Phiên bản Xe
+								li.item Năm sản xuất
+								li.item Động Cơ
+								li.item Hệ Dẫn Động
+							ul.list-2
+								li.item ZN6
+								li.item 2020
+								li.item 24.4 to 31.4
+								li.item 2WD A / T
+					.block.item-detail.mt-18
+						h3.name-catalogs Dầu nhớt động cơ
+						.info-product
+							ul
+								li
+									h5 API tiêu chuẩn:
+									p SN 0W-20
+								li
+									h5 Bao bì:
+									p 1L, 0.8L
+						.row.list-item.no-gutters
+							.col-lg-4.col-6.item
+								a(href="#")
+									figure
+										figcaption
+											h5 Tiêu chuẩn 1
+											p H-TECH100PLUS_0W20
+										.box-img
+											img(src="./img/detail-oil-01.png", alt="", srcset="")
+							.col-lg-4.col-6.item
+								a(href="#")
+									figure
+										figcaption
+											h5 Tiêu chuẩn 1
+											p H-TECH100PLUS_0W20
+										.box-img
+											img(src="./img/detail-oil-02.png", alt="", srcset="")
+							.col-lg-4.col-6.item
+								a(href="#")
+									figure
+										figcaption
+											h5 Tiêu chuẩn 1
+											p H-TECH100PLUS_0W20
+										.box-img
+											img(src="./img/detail-oil-03.png", alt="", srcset="")
+					.block.item-detail.mt-18
+						h3.name-catalogs Dầu nhớt số sàn
+						.info-product
+							ul
+								li
+									h5 Designated oil:
+									p SN 0W-20
+								li
+									h5 Bao bì:
+									p 1L, 0.8L
+						.row.list-item.no-gutters
+							.col-lg-4.col-6.item
+								a(href="#")
+									figure
+										figcaption
+											h5 Tiêu chuẩn 1
+											p H-TECH100PLUS_0W20
+										.box-img
+											img(src="./img/detail-oil-04.png", alt="", srcset="")

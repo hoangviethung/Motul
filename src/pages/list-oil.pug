@@ -2,9 +2,9 @@ extends _layout/_layout_2.pug
 
 block var
 	- var title = 'Danh Sách Sản Phẩm'
-	- var bodyClass = 'list-product-page'
+	- var bodyClass = 'list-oil-page'
 block main
-	section.list-products-oil
+	section.list-oil
 		.container
 			.row
 				//- MENU BÊN TRÁI
@@ -15,165 +15,33 @@ block main
 					.block.list-oil
 						h3.name-catalogs Dầu nhớt động cơ
 						.row.list-item
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
+							-for(i=0;i<12;i++)
+								.col-lg-4.col-6.item
+									a(href="")
+										figure
+											figcaption
+												h5 H-TECH100PLUS_0W20
+											.box-img
+												img(src="./img/product_01.png", alt="")
 					.block.list-oil.mt-25
 						h3.name-catalogs Dầu nhớt số sàn
 						.row.list-item
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
+							-for(i=0;i<6;i++)
+								.col-lg-4.col-6.item
+									a(href="#")
+										figure
+											figcaption
+												h5 H-TECH100PLUS_0W20
+											.box-img
+												img(src="./img/product_02.png", alt="")
 					.block.list-oil.mt-25
 						h3.name-catalogs ATF / CVTF / DCTF
 						.row.list-item
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_02.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_02.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_03.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_03.png", alt="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/product_01.png", alt="")
+							-for(i=0;i<6;i++)
+								.col-lg-4.col-6.item
+									a(href="#")
+										figure
+											figcaption
+												h5 H-TECH100PLUS_0W20
+											.box-img
+												img(src="./img/product_04.png", alt="")

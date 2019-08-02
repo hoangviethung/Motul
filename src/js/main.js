@@ -62,6 +62,36 @@ function closeMenuMobile() {
 	});
 }
 
+function sliderBannerCar() {
+	var mySwiper = new Swiper('.swiper-BannerCar', {
+		// // Optional parameters
+		loop: true,
+		autoplay: {
+			delay: 2000,
+			disableOnInteraction: false,
+		},
+		speed: 700,
+		// If we need pagination
+		pagination: {
+			el: '.swiper-pagination',
+		},
+		effect: 'fade',
+		fadeEffect: {
+			crossFade: true,
+		},
+		// Navigation arrows
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+
+		// And if we need scrollbar
+		scrollbar: {
+			el: '.swiper-scrollbar',
+		},
+	})
+}
+
 
 
 
@@ -75,6 +105,7 @@ $(document).ready(function () {
 	_toggle_button_menu();
 	showMenuMobile();
 	closeMenuMobile();
+	sliderBannerCar()
 })
 
 $(document).ajaxComplete(function () {
