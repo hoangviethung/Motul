@@ -12,7 +12,7 @@ block main
 					include ../components/nav-left/nav-left.pug
 				//- DANH SÁCH XE HƠI
 				.col-lg-9
-					.block.text-center
+					.block.text-center.mt-mb-18
 						.brand-detail
 							p Mẫu xe
 							ul
@@ -40,30 +40,15 @@ block main
 									h5 Bao bì:
 									p 1L, 0.8L
 						.row.list-item.no-gutters
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 Tiêu chuẩn 1
-											p H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/detail-oil-01.png", alt="", srcset="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 Tiêu chuẩn 1
-											p H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/detail-oil-02.png", alt="", srcset="")
-							.col-lg-4.col-6.item
-								a(href="#")
-									figure
-										figcaption
-											h5 Tiêu chuẩn 1
-											p H-TECH100PLUS_0W20
-										.box-img
-											img(src="./img/detail-oil-03.png", alt="", srcset="")
+							-for(i=0;i<4;i++)
+								.col-lg-4.col-6.item
+									a(href="#")
+										figure
+											figcaption
+												h5 Tiêu chuẩn 1
+												p H-TECH100PLUS_0W20
+											.box-img
+												img(src="./img/detail-oil-01.png", alt="", srcset="")
 					.block.item-detail.mt-18
 						h3.name-catalogs Dầu nhớt số sàn
 						.info-product

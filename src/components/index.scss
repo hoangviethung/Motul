@@ -7,6 +7,10 @@
 	.box-content {
 		padding: 50px 0 50px 70px;
 
+		img {
+			display: none;
+		}
+
 		p {
 			font-size : 18px;
 			color     : #000;
@@ -85,6 +89,57 @@
 				}
 			}
 
+		}
+	}
+}
+
+@media(max-width: 1024px) {
+	.motul-oil {
+		.box-content {
+			padding: 0px 7.5px 12px 7.5px;
+
+			img {
+				display   : block;
+				margin-top: -10px;
+			}
+
+			p {
+				padding   : 0 10px;
+				text-align: justify;
+				font-size : 14px;
+				margin-top: 20px;
+
+				&:nth-child(2) {
+					margin: 0;
+				}
+			}
+
+			.box-title {
+				margin : 35px 10px 0;
+				padding: 10px;
+
+				a {
+					span {
+						font-size  : 12px;
+						font-weight: 700;
+					}
+
+					h5 {
+						font-size: 12px;
+						font-weight: 400;
+					}
+
+					h1 {
+						font-size   : 30px;
+							padding-left: 30px
+					}
+				}
+
+			}
+		}
+
+		.col-lg-5 {
+			display: none;
 		}
 	}
 }

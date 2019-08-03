@@ -32,9 +32,11 @@ body {
 
 .block {
 	border: 5px solid #ED1D24;
-	.row{
+
+	.row {
 		position: relative;
 	}
+
 	&.menu {
 		display        : flex;
 		justify-content: center;
@@ -129,8 +131,15 @@ body {
 		}
 
 		&.item-detail {
-			padding   : 15px 0;
 			margin-top: 10px;
+		}
+
+		&.size-9 {
+			border: 3px solid #ED1D24;
+		}
+
+		&.mt-mb-18 {
+			margin-top: 18px;
 		}
 	}
 }
