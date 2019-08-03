@@ -12,6 +12,7 @@
 		}
 
 		p {
+			font-family: 'SEGOEUI';
 			font-size : 18px;
 			color     : #000;
 			margin-top: 30px;
@@ -48,6 +49,7 @@
 				}
 
 				span {
+					font-family: 'SEGOEUI';
 					font-size        : 14px;
 					font-weight      : 700;
 					color            : #ED1D24;
@@ -65,6 +67,7 @@
 				}
 
 				h5 {
+					font-family: 'SEGOEUI';
 					position       : relative;
 					text-align     : right;
 					padding-right  : 40px;
@@ -73,6 +76,7 @@
 					max-width      : 100%;
 					color          : #ED1D24;
 					font-size      : 14px;
+					font-weight: 400;
 
 					&::after {
 						content          : '';

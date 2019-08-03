@@ -3,7 +3,8 @@
 		"font": [
 			"bower_components/mdi/fonts/**",
 			"bower_components/font-awesome/webfonts/**",
-			"bower_components/linearicons/dist/web-font/fonts/**"
+			"bower_components/linearicons/dist/web-font/fonts/**",
+			"src/fonts/SEGOEUI.TTF"
 		],
 		"js": [
 			"bower_components/jquery/dist/jquery.min.js",
