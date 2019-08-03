@@ -7,13 +7,15 @@ section.distribution-system
 			.col-lg-5
 				.form-group
 					input(type="text" placeholder="Tìnm địa chỉ")
-				.form-group
+				.form-group.form-select
+					label(for="city")
 					select#city(name="name-city")
 						option(value="0") Chọn tỉnh/thành phố
 						option(value="1") Hồ Chí Minh
 						option(value="2") Lào Cai
 						option(value="3") Biên Hòa
-				.form-group
+				.form-group.form-select
+					label(for="district")
 					select#district(name="district")
 						option(value="0") Chọn quận/huyện
 						option(value="1") Quận 1
