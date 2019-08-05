@@ -15,7 +15,7 @@
 			font-family: 'SEGOEUI';
 			font-size  : 18px;
 			color      : #000;
-			margin-top : 30px;
+			margin-top : 20px;
 			text-align : justify;
 
 			&:nth-child(2) {
@@ -28,6 +28,7 @@
 		}
 
 		.box-title {
+			width           : 420px;
 			margin          : 50px 30% 0 0;
 			display         : flex;
 			flex-wrap       : wrap;
@@ -70,7 +71,7 @@
 					font-family    : 'SEGOEUI';
 					position       : relative;
 					text-align     : right;
-					padding-right  : 40px;
+					padding-right  : 25px;
 					justify-content: flex-end;
 					flex           : 0 0 100%;
 					max-width      : 100%;
@@ -86,8 +87,8 @@
 						background-size  : cover;
 						top              : 50%;
 						right            : 0;
-						width            : 26px;
-						height           : 26px;
+						width            : 16px;
+						height           : 16px;
 						transform        : translateY(-50%);
 					}
 				}
@@ -112,6 +113,7 @@
 
 			.box-title {
 				margin: 25px 30% 0 0;
+				width : unset;
 
 				a {
 					h1 {

@@ -45,8 +45,7 @@
 
 .list-car {
 	list-style: none;
-	padding   : 0;
-	padding   : 43px;
+	padding   : 30px 58px;
 
 	.item {
 		padding    : 0 0 28px 0;
@@ -79,13 +78,12 @@
 
 	.note {
 		margin-top: 30px;
-		width     : 90%;
 
 		p {
 			font-family: 'SEGOEUI';
-			text-align: justify;
-			font-size : 18px;
-			color     : #707070;
+			text-align : justify;
+			font-size  : 18px;
+			color      : #707070;
 		}
 	}
 }
@@ -276,7 +274,7 @@
 		justify-content: center;
 		flex           : 0 0 50%;
 		max-width      : 50%;
-		height         : 160px;
+		height         : 172px;
 
 	}
 
@@ -334,6 +332,7 @@
 			.item {
 				font-size  : 16px;
 				font-weight: 700;
+				padding    : 8px 0;
 			}
 		}
 
@@ -388,7 +387,6 @@
 
 		.note {
 			margin-top: 22px;
-			width     : 100%;
 
 			p {
 				font-size: 14px;

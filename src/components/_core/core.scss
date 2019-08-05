@@ -55,6 +55,8 @@ body {
 		p {
 			position     : relative;
 			padding-right: 35px;
+			width        : 100%;
+			text-align   : center;
 
 			&::after {
 				content          : '';
@@ -63,7 +65,7 @@ body {
 				background-repeat: no-repeat;
 				background-size  : cover;
 				top              : 50%;
-				right            : 0;
+				right            : 15px;
 				width            : 26px;
 				height           : 26px;
 				transform        : translateY(-50%);
