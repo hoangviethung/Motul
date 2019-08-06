@@ -62,8 +62,9 @@ function initialize() {
 		map.fitBounds(bounds);
 	}
 }
-
-google.maps.event.addDomListener(window, 'load', initialize);
+if ($('#map').length > 0) {
+	google.maps.event.addDomListener(window, 'load', initialize);
+}
 
 function myClick(id) {
 	google.maps.event.trigger(markers[id], 'click');
