@@ -394,6 +394,21 @@
 		}
 	}
 
+	.car-version {
+		.table-car_version {
+
+			.table-pc {
+				width: 100%;
+
+				tr {
+					&:first-child {
+						border-bottom: 3px solid #ED1D24;
+					}
+				}
+			}
+		}
+	}
+
 	.list-oil {
 		.list-item {
 			.item {
