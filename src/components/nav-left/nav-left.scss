@@ -1,23 +1,24 @@
 aside {
+	.box-title-nav {
+		padding: 25px 0;
 
-	h3,
-	p {
-		text-align : center;
-		flex       : 0 0 100%;
-		max-width  : 100%;
-		font-weight: 700;
-	}
+		h3,
+		p {
+			text-align : center;
+			flex       : 0 0 100%;
+			max-width  : 100%;
+			font-weight: 700;
+		}
 
-	h3 {
-		padding-top: 25px;
-		color      : #000;
-		font-size  : 24px;
-	}
+		h3 {
+			color    : #000;
+			font-size: 24px;
+		}
 
-	p {
-		padding-bottom: 25px;
-		font-size     : 16px;
-		color         : #ED1D24;
+		p {
+			font-size: 16px;
+			color    : #ED1D24;
+		}
 	}
 
 	.box-search {
