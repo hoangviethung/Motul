@@ -18,6 +18,12 @@
 
 					.box-img {
 						margin-top: auto;
+
+						img {
+							max-width : 172px;
+							max-height: 172px;
+							object-fit: cover;
+						}
 					}
 
 					figcaption {
