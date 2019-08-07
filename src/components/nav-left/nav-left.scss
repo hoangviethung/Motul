@@ -9,15 +9,15 @@ aside {
 	}
 
 	h3 {
-		padding-top: 35px;
+		padding-top: 25px;
 		color      : #000;
 		font-size  : 24px;
 	}
 
 	p {
+		padding-bottom: 25px;
 		font-size     : 16px;
 		color         : #ED1D24;
-		padding-bottom: 25px;
 	}
 
 	.box-search {
@@ -88,7 +88,7 @@ aside {
 		p {
 			flex     : 0 0 50%;
 			max-width: 50%;
-			padding: 0;
+			padding  : 0;
 		}
 
 		h3 {

@@ -104,14 +104,14 @@
 					background    : #ED1D24;
 
 					&:after {
-						content: '';
-						position: absolute;
-						top: 50%;
-						left: 50%;
-						transform: translate(-50%,-50%);
-						border-left  : 8px solid transparent;
-						border-right : 8px solid transparent;
-						border-top: 9px solid #fff;
+						content     : '';
+						position    : absolute;
+						top         : 50%;
+						left        : 50%;
+						transform   : translate(-50%, -50%);
+						border-left : 8px solid transparent;
+						border-right: 8px solid transparent;
+						border-top  : 9px solid #fff;
 					}
 				}
 			}
@@ -146,6 +146,10 @@
 			.item {
 				margin-bottom: 30px;
 				cursor       : pointer;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
 
 				.name {
 					font-size    : 16px;
