@@ -1,0 +1,70 @@
+extends _layout/_layout_2.pug
+
+block var
+	- var title = "Kết quả tìm kiếm"
+	- var bodyClass= "search-page"
+block main
+	section.search
+		.container
+			.row
+				//- MENU BÊN TRÁI
+				.col-lg-3
+					.block
+						form(action="search.html")
+							.box-search
+								h3 XE HƠI
+								span Tìm tên xe hơi
+								.form-group
+									input(type="text" placeholder="Tìm...")
+									button
+										img(src="./img/icons/icon_search.png", alt="", srcset="")
+					a.back-link(href="index.html")
+						.block.mt-18.back-button Quay Lại
+				.col-lg-9
+					.block.item-detail
+						.name-car
+							h2 Camry
+						.table-search
+							table.table-pc
+								tr
+									th Tên xe
+									th Phiên bản xe
+									th Năm sản xuất
+									th Động cơ
+									th Hệ dẫn động
+								//- SẢN PHẨM
+								-for(i=0;i<15;i++)
+									tr
+										td
+											a(href="detail-oil.html") Camry
+										td
+											a(href="detail-oil.html") ACV30
+										td
+											a(href="detail-oil.html") 2002-2006
+										td
+											a(href="detail-oil.html") 2.4 2AZ-FE VVT-I
+										td
+											a(href="detail-oil.html") 2WD
+							.table-mb
+								-for(i=0; i<5;i++)
+									.row.list-item
+										.col-12.item
+											a(href="detail-oil.html")
+												h3 Tên xe: 
+													span Camry
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Phiên bản xe
+												p ACV30
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Động cơ
+												p 2.4 2AZ-FE VVT-I
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Năm sản xuất
+												p 2002-2006
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Hệ dẫn động
+												p 2WD
