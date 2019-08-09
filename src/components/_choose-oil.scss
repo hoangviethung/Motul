@@ -429,14 +429,23 @@
 
 	.list-oil {
 		.list-item {
-			.item {
-				figure {
-					figcaption {
-						h5 {
-							font-size: 12px;
+			padding: 0 !important;
 
-							&:before {
-								display: none;
+			.item {
+				margin-top: 30px;
+
+				a {
+					figure {
+						figcaption {
+							margin-bottom: 10px;
+
+							h5 {
+								font-size   : 12px;
+								padding-left: 0;
+
+								&:before {
+									content: none;
+								}
 							}
 						}
 					}
@@ -444,7 +453,6 @@
 			}
 		}
 	}
-
 
 	.brand,
 	.quantity {
