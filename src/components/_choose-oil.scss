@@ -525,13 +525,15 @@
 		}
 
 		.info-car-detail {
-			padding: 20px;
+			padding: 10px;
+			height : unset;
 
 			.list-1,
 			.list-2 {
 				padding-inline-start: 10px;
 
 				.item {
+					padding    : 5px 0;
 					font-size  : 14px;
 					font-weight: 400;
 				}
