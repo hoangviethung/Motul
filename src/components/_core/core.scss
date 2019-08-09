@@ -73,11 +73,6 @@ body {
 		}
 
 		@media(max-width: 1024px) {
-			.col-lg-6 {
-				&.menu {
-					padding: 20px 0;
-				}
-			}
 
 			border    : 3px solid #ED1D24;
 			height    : 38px;
@@ -149,6 +144,14 @@ body {
 
 		&.size-9 {
 			border: 3px solid #ED1D24;
+		}
+
+		&.mt-18 {
+			margin-top: 10px;
+		}
+
+		&.mt-mb-10 {
+			margin-top: 10px;
 		}
 
 		&.mt-mb-18 {
