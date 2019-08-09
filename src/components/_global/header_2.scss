@@ -23,6 +23,13 @@
 
 @media(max-width: 1024px) {
 	.header_2 {
+		.col-lg-6 {
+			.block {
+				&.menu {
+					padding: 20px 0;
+				}
+			}
+		}
 
 		h2 {
 			font-size: 18px;

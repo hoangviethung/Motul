@@ -207,5 +207,46 @@
 			margin-top: 25px;
 			height    : 535px;
 		}
+
+		.box-filter {
+			h5 {
+				font-size: 12px;
+			}
+		}
+
+		.box-search-map {
+			.form-group {
+				margin-bottom: 10px;
+
+				&.radio {
+					label {
+						font-size: 12px;
+
+						&:first-child {
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+		}
+
+		.show-filter {
+			height : 360px;
+			padding: 20px;
+
+			.list-address {
+
+				.item {
+					.name {
+						font-size: 14px;
+					}
+
+					.address,
+					.phone {
+						font-size: 12px;
+					}
+				}
+			}
+		}
 	}
 }

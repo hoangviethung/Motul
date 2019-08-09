@@ -96,16 +96,16 @@
 			}
 		}
 	}
+}
 
-	.note {
-		margin-top: 30px;
+.note {
+	margin-top: 30px;
 
-		p {
-			font-family: 'SEGOEUI';
-			text-align : justify;
-			font-size  : 18px;
-			color      : #707070;
-		}
+	p {
+		font-family: 'SEGOEUI';
+		text-align : justify;
+		font-size  : 18px;
+		color      : #707070;
 	}
 }
 
@@ -402,13 +402,13 @@
 				background: #F2F2F2;
 			}
 		}
+	}
 
-		.note {
-			margin-top: 22px;
+	.note {
+		margin-top: 22px;
 
-			p {
-				font-size: 14px;
-			}
+		p {
+			font-size: 14px;
 		}
 	}
 
@@ -464,19 +464,20 @@
 	.brand {
 		border-right : 0;
 		border-bottom: 3px solid #ED1D24;
+	}
+
+	.quantity,
+	.brand {
 
 		p {
-			font-size: 12px;
+			font-size : 12px;
+			margin-top: 5px;
+
 		}
 
 		h3 {
 			font-size: 18px;
-		}
-	}
 
-	.quantity {
-		p {
-			font-size: 12px;
 		}
 	}
 
@@ -524,7 +525,7 @@
 		}
 
 		.info-car-detail {
-			height: 135px;
+			padding: 20px;
 
 			.list-1,
 			.list-2 {
