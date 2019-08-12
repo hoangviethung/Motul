@@ -34,7 +34,7 @@
 							text-align  : center;
 							font-size   : 14px;
 							color       : #353535;
-							word-break  : break-all;
+							word-break  : break-word;
 							padding-left: 35px;
 
 							&:before {
@@ -216,7 +216,7 @@
 
 		flex-basis   : 0;
 		flex-grow    : 1;
-		word-break   : break-all;
+		word-break   : break-word;
 		padding-right: 20px;
 	}
 }
@@ -323,7 +323,7 @@
 			list-style   : none;
 			flex-basis   : 0;
 			flex-grow    : 1;
-			word-break   : break-all;
+			word-break   : break-word;
 
 			li {
 				font-size  : 30px;
