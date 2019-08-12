@@ -68,3 +68,50 @@ block main
 											a(href="detail-oil.html")
 												h5 Hệ dẫn động
 												p 2WD
+					.block.item-detail.mt-18
+						.name-car
+							h2 Camry
+						.table-search
+							table.table-pc
+								tr
+									th Tên xe
+									th Phiên bản xe
+									th Năm sản xuất
+									th Động cơ
+									th Hệ dẫn động
+								//- SẢN PHẨM
+								-for(i=0;i<15;i++)
+									tr
+										td
+											a(href="detail-oil.html") Camry
+										td
+											a(href="detail-oil.html") ACV30
+										td
+											a(href="detail-oil.html") 2002-2006
+										td
+											a(href="detail-oil.html") 2.4 2AZ-FE VVT-I
+										td
+											a(href="detail-oil.html") 2WD
+							.table-mb
+								-for(i=0; i<5;i++)
+									.row.list-item
+										.col-12.item
+											a(href="detail-oil.html")
+												h3 Tên xe: 
+													span Camry
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Phiên bản xe
+												p ACV30
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Động cơ
+												p 2.4 2AZ-FE VVT-I
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Năm sản xuất
+												p 2002-2006
+										.col-6.item
+											a(href="detail-oil.html")
+												h5 Hệ dẫn động
+												p 2WD
